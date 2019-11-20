@@ -1,0 +1,40 @@
+#### 在某个模板类中声明模板友元函数
+#### 且该友元函数的模板是与类模板相关的
+
+~~~
+template<int row,int col>
+class matrix {
+  //注意operator+后面的<row,col>
+	friend matrix<row, col> operator+<row, col> (matrix<row, col>& m1, matrix<row, col>& m2);
+public:
+	matrix() {};
+	void get();
+	void display();
+private:
+	int m[row][col];
+};
+~~~
+
+~~~
+template<int row, int col>
+matrix<row, col> operator+(matrix<row, col>& m1, matrix<row, col>& m2) {
+	matrix<row, col> temp;
+	for (int i = 0; i < row; i++) {
+		for (int j = 0; j < col; j++) {
+			temp.m[i][j] = m1.m[i][j] + m2.m[i][j];
+		}
+	}
+	return temp;
+}
+~~~
+
+模板类、类中声明的模板函数，他们的“模板”之间是没有联系的
+matrix的<int row,int col>与operator+中的<int row,int col>不是一个东西
+friend matrix<row, col> operator+<row, col>中
+matrix<row, col>里的row,col和模板类也没有一毛钱关系
+
+所以需要在函数声明中显示的说明operator+函数的模板调用了模板类的模板参数
+也就是说，模板函数在类中的声明也是一种“使用”模板函数的过程
+operator+<row, col>才是连接类与friend的关键
+
+参考文献：https://blog.csdn.net/wonengguwozai/article/details/52263560
