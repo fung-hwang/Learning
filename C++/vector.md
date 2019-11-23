@@ -21,8 +21,8 @@ reverse(int)|     |     |预留vector长度，不初始化
 =       |vec1=vec2 |拷贝，完全复制
 
 3. 注意点
-    + 若定义了vector初始大小,如vector<int> vec(10)，元素会初始化为默认值
-    + pop_back不返回元素
-    + resize()用于预留空间。
+  + 若定义了vector初始大小,如vector<int> vec(10)，元素会初始化为默认值
+  + pop_back不返回元素
+  + resize()用于预留空间。
     在vector定义后才得到vector大小时，就可以用resize()初始化并赋值，否则不能用下标访问。(注意和reverse的区别)
     比如vector定义在全局，但在main中才接收vector大小，这时用resize()就很好。
