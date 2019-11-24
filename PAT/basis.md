@@ -5,6 +5,8 @@
 2| factorization| 因式分解
 3| order  | 顺序，次序
 4| tie    |平局
+5|threshold|槛，界
+
 ---
 
 1. 理解**“顺序”**  （A1056）
