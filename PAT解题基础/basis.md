@@ -3,9 +3,15 @@
 :-|:-:|:-:
 1| permutation  |排列，组合（方式）
 2| factorization| 因式分解
-3| order  | 顺序，次序
-4| tie    |平局
-5|threshold|槛，界
+3| order    | 顺序，次序
+4|sequence  |顺序，次序
+5| tie      |平局
+6|threshold |槛，界
+7|preorder  |先序遍历
+8|inorder   |中序遍历
+9|postorder |后序遍历
+10|level order|层序遍历
+
 
 ---
 
