@@ -1,3 +1,10 @@
+//生产者消费者问题
+//2个生产者+2个消费者+5个缓冲池
+//使用条件变量+互斥锁
+//编译的时候需要连接lpthread或pthread
+//算是第一个多线程程序？
+
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
@@ -82,4 +89,3 @@ pthread_join(cid2,NULL);
 
 return 0;
 }
-
