@@ -4,10 +4,10 @@
 
 #### 目前的学习重心
 1. **C++**
-2. **DS + Algo（基础） -> PAT|CSP**
+2. **DS + Algo（基础） -> 研|PAT|CSP**
 
 #### 想要学习的东西
-1.web开发（java or python）
+1. web开发（java or python）
 
 ---
 
