@@ -6,11 +6,12 @@
 1. **考研**
 
 #### 目前的学习重心
-1. **C++(STL)**
-2. **DS + Algo（基础） -> 研|PAT|CSP**
+0. **考研**（绝对重心）
+1. **C++(STL) + DS + Algo（基础） -> 研|PAT|蓝桥杯|CSP**
+2. **Java开发（后端）：Servlet + JSP + DB -> SSM**
 
 #### 想要学习的东西
-1. web开发（java or python） + 设计模式
+1. 开发 + 设计模式
 2. 基于github搭建个人网站  
 
 ---
