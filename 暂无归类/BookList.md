@@ -21,12 +21,12 @@
 
    + 离散数学及其应用
 
-2. 前端
+3. 前端
    + *head first HTML & CSS*
 
    + *JavaScript Dom 编程艺术*
 
-3. Java 后端
+4. Java 后端
    + *Servlet和JSP学习指南*
 
    + *Spring实战*
@@ -35,14 +35,14 @@
 
    + *Maven实战*
 
-4. 数据库
+5. 数据库
    + *MySQL必知必会*
 
    + *高性能MySQL*
 
    + *缺一本理论性较强的书（数据库系统概念）*
 
-5. 高阶
+6. 高阶
    + *Head First 设计模式*
 
    + *代码整洁之道*
