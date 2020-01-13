@@ -3,9 +3,9 @@
 1. 语言入门
    + C Primer Plus
 
-   + *C++ Primer*
-
    + Essential C++
+
+   + *C++ Primer*
 
    + Java语言程序设计/Java核心技术
 
@@ -30,6 +30,8 @@
    + *JavaScript高级程序设计*
 
 4. Java 后端
+   + *Head First Servlets & JSP*
+
    + *Servlet和JSP学习指南*
 
    + *Spring实战*
