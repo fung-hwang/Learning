@@ -23,7 +23,7 @@
    + 离散数学及其应用
 
 3. 前端
-   + *head first HTML & CSS*
+   + head first HTML & CSS
 
    + *JavaScript Dom 编程艺术*
 
