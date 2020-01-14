@@ -22,14 +22,14 @@
 
    + 离散数学及其应用
 
-3. 前端
+3. Web前端
    + head first HTML & CSS
 
    + *JavaScript Dom 编程艺术*
 
    + *JavaScript高级程序设计*
 
-4. Java 后端
+4. Java Web后端
    + *Head First Servlets & JSP*
 
    + *Servlet和JSP学习指南*
