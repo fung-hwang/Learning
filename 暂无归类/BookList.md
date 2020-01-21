@@ -41,7 +41,7 @@
    + *Maven实战*
 
 5. 数据库
-   + *MySQL必知必会*
+   + MySQL必知必会
 
    + *MySQL技术内幕*
 
