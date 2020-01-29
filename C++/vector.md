@@ -25,4 +25,4 @@ reserve(int)|     |     |预留vector长度，不初始化
   + pop_back不返回元素
   + resize()用于预留空间。
     在vector定义后才得到vector大小时，就可以用resize()初始化并赋值，否则不能用下标访问。(注意和reverse的区别)
-    比如vector定义在全局，但在main中才接收vector大小，这时用resize()就很好。
+    比如：vector定义在全局，但在main中才接收vector大小，这时用resize()就很好。
