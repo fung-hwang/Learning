@@ -13,7 +13,7 @@ erase(it)   |     |     |
 clear()     |     |     |清空
 size()      |     |int  |元素个数
 resize(int) |     |     |设定vector长度，并初始化为默认值
-reverse(int)|     |     |预留vector长度，不初始化
+reserve(int)|     |     |预留vector长度，不初始化
 
 2. 运算符
 运算符  |   |用法
