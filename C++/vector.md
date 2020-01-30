@@ -25,6 +25,6 @@ reserve(int)|     |     |设定vector容量，不影响size，不初始化
   + 若定义了vector初始大小,如vector<int> vec(10)，元素会初始化为默认值
   +  reserve增加了vector的capacity，但是它的size没有改变！而resize改变了vector的capacity同时也增加了它的size！
 
-    reserve()是容器预留空间，但在空间内不真正创建元素对象，所以在没有添加新的对象之前，不能引用容器内的元素。加入新的元素时，要调用push_back()/insert()函数。
+    reserve()是容器预留空间，但在空间内不真正创建元素对象，所以在没有添加新的对象之前，不能引用容器内的元素。加入新的元素时，要调用push_back()/insert()函数，不能使用下标。
 
     resize()用于预留+初始化空间。
