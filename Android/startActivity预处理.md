@@ -17,6 +17,6 @@ if (intent.resolveActivity(pm) != null) {
 https://developer.android.google.cn/guide/components/intents-common?hl=zh_cn
 
 **至于为什么模拟器明明有浏览器却不能响应，暂时还没有找到原因  
-同样的情况出现在了Intent.ACTION_DIAG上  
+同样的情况出现在了Intent.ACTION_DIAL/CALL上  
 而这些intent在之前都是正常的  
 2020.04.04**
