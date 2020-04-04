@@ -1,7 +1,7 @@
-### startActivity(intent)前判断是否有能接收的应用
+# startActivity(intent)前需判断是否有能接收intent的应用
 
 ```Java
-Intent intent = new Intent("Intent.ACTION_VIEW");
+Intent intent = new Intent(Intent.ACTION_VIEW);
 intent.setData(Uri.parse("http://www.baidu.com"));
 PackageManager pm = getPackageManager();
 if (intent.resolveActivity(pm) != null) {
@@ -20,3 +20,7 @@ https://developer.android.google.cn/guide/components/intents-common?hl=zh_cn
 同样的情况出现在了Intent.ACTION_DIAL/CALL上  
 而这些intent在之前都是正常的  
 2020.04.04**
+
+**破案了**  
+`Intent intent = new Intent(Intent.ACTION_VIEW); `写成了`Intent intent = new Intent("Intent.ACTION_VIEW");`  
+多了引号！action不要瞎写！艹！
